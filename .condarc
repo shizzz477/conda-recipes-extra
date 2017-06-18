@@ -1,9 +1,0 @@
-channels:
-  - bioconda
-  - salilab
-  - omnia
-  - defaults
-  - conda-forge
-  - r
-  - ostrokach
-
