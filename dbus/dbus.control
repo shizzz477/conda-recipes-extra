@@ -1,0 +1,9 @@
+Package: dbus
+Version: 1-10-20
+Maintainer: test <test@test.com>
+Section: admin
+Architecture: amd64
+Priority: optional
+Replaces: dbus (=1.9.16-1)
+Description: dbus
+ dbus
