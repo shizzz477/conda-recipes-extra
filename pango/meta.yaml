@@ -8,7 +8,7 @@ source:
   sha256: da17985df314cb07d066ab5424f59c21ce973ece05b7de4df04d798ec8511c8b
 
 build:
-  number: 0
+  number: 2
   detect_binary_files_with_prefix: true
 
 requirements:

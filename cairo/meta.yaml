@@ -1,4 +1,4 @@
-{% set version = "1.14.2" %}
+{% set version = "1.12.8" %}
 
 package:
   name: cairo
@@ -7,10 +7,10 @@ package:
 source:
   url: http://cairographics.org/releases/cairo-{{ version }}.tar.xz 
   fn: cairo-{{ version }}.tar.xz
-  md5: e1cdfaf1c6c995c4d4c54e07215b0118
+  md5: 8b3dcade859c44fb7e56fc68edfe9a45
 
 build:
-  number: 3
+  number: 7
 
 requirements:
   build:

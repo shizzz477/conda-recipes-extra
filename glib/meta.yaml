@@ -1,5 +1,5 @@
-{% set major_version = "2.48" %}
-{% set minor_version = "2" %}
+{% set major_version = "2.51" %}
+{% set minor_version = "4" %}
 {% set version = major_version + "." + minor_version %}
 
 package:
@@ -9,10 +9,10 @@ package:
 source:
   url: http://ftp.gnome.org/pub/gnome/sources/glib/{{ major_version }}/glib-{{ version }}.tar.xz 
   fn: glib-{{ version }}.tar.xz
-  sha256: f25e751589cb1a58826eac24fbd4186cda4518af772806b666a3f91f66e6d3f4
+  sha256: 7c4247dfb2e8d5b596018f00ea8c05e76077a3f0bfcc07dda4492708f552c23e
 
 build:
-  number: 0
+  number: 3
   detect_binary_files_with_prefix: true
 
 requirements:
