@@ -1,11 +1,11 @@
 package:
   name: libsigcpp
-  version: "2.4.1"
+  version: "2.99.8"
 
 source:
-  url: http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.4/libsigc++-2.4.1.tar.xz 
-  md5: 55945ba6e1652f89999e910f6b52047c
-  fn: libsigc++-2.4.1.tar.xz
+  url: http://ftp.acc.umu.se/pub/gnome/sources/libsigc++/2.99/libsigc++-2.99.8.tar.xz 
+  md5: 992654e072a253489bbe0d30495915bd
+  fn: libsigc++-2.99.8.tar.xz
 
 build:
   number: 3
@@ -18,8 +18,10 @@ requirements:
     - libtool
     - pkg-config
     - gcc
+    - perl 5.22.2.*
   run:
     - libgcc
+    - perl 5.22.2.*
 
 about:
   home: libsigc.sourceforge.net
