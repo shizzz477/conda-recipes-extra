@@ -1,18 +1,18 @@
 package:
   name: gtk
-  version: "3.16.6"
+  version: "3.91.0"
 
 source:
-  url: http://ftp.gnome.org/pub/gnome/sources/gtk+/3.16/gtk+-3.16.6.tar.xz 
-  fn: gtk+-3.16.6.tar.xz
+  url: http://ftp.acc.umu.se/pub/GNOME/sources/gtk+/3.91/gtk+-3.91.0.tar.xz 
+  fn: gtk+-3.91.0.tar.xz  
 
 build:
-  number: 2
+  number: 4
 
 requirements:
   build:
-    #- gcc
-    - python ==2.7.10
+    - gcc
+    - python ==2.7.13
     - m4
     - autoconf
     - automake
